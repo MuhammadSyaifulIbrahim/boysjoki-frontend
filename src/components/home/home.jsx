@@ -10,24 +10,36 @@ export const Home = ({ user }) => {
       <div>
         <Carousel>
           <Carousel.Item>
-            <img className="d-block w-100 carousel-img" src={img1} alt="First slide" />
+            <img
+              className="d-block w-100 carousel-img"
+              src={img1}
+              alt="First slide"
+            />
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3></h3>
+              <p></p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100 carousel-img" src={img2} alt="Second slide" />
+            <img
+              className="d-block w-100 carousel-img"
+              src={img2}
+              alt="Second slide"
+            />
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3></h3>
+              <p></p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100 carousel-img" src={img3} alt="Third slide" />
+            <img
+              className="d-block w-100 carousel-img"
+              src={img3}
+              alt="Third slide"
+            />
             <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <h3></h3>
+              <p></p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
@@ -38,7 +50,10 @@ export const Home = ({ user }) => {
           <Card.Img variant="top" src={img2} className="card-img" />
           <Card.Body>
             <Card.Title className="fs-3 fw-bold">Valorant</Card.Title>
-            <Card.Text>Joki Rank Valorant murah dengan pengerjaan cepat.Tersedia dari rank Iron hingga Platinum</Card.Text>
+            <Card.Text>
+              Joki Rank Valorant murah dengan pengerjaan cepat.Tersedia dari
+              rank Iron hingga Platinum
+            </Card.Text>
             {user ? (
               user?.role === "USER" ? (
                 <button
