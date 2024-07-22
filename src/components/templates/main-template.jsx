@@ -231,7 +231,7 @@ export const MainTemplate = ({ component: Component }) => {
         </div>
         <hr className="text-white m-0 p-0" />
         <p className="m-0 px-0 py-3 text-white text-center">
-          2024@ All rights reserved. Sirkel Dosen Team
+          2024@ All rights reserved. boysjokistore
         </p>
       </div>
     </div>
