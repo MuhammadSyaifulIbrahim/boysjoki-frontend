@@ -34,13 +34,25 @@ export const MainTemplate = ({ component: Component }) => {
           <a class="navbar-brand text-info fw-bold fs-2" href="/">
             <img src={logo} alt="Logo Website" className="" width={"140px"} />
           </a>
-          <button class="navbar-toggler text-bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler text-bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item px-2">
-                <a class="nav-link rounded px-3 a-btn" aria-current="page" href="/">
+                <a
+                  class="nav-link rounded px-3 a-btn"
+                  aria-current="page"
+                  href="/"
+                >
                   Home
                 </a>
               </li>
@@ -62,7 +74,10 @@ export const MainTemplate = ({ component: Component }) => {
                 ) : (
                   <>
                     <li class="nav-item px-2">
-                      <a class="nav-link rounded px-3 a-btn" href="/admin/orders">
+                      <a
+                        class="nav-link rounded px-3 a-btn"
+                        href="/admin/orders"
+                      >
                         Daftar Pesanan
                       </a>
                     </li>
@@ -73,7 +88,11 @@ export const MainTemplate = ({ component: Component }) => {
               )}
               {user ? (
                 <li class="nav-item px-2 dropdown">
-                  <a class="nav-link dropdown-toggle rounded text-center px-3 bg-white pointer" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a
+                    class="nav-link dropdown-toggle rounded text-center px-3 bg-white pointer"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                     {user?.name?.split(" ")[0]}
                   </a>
                   <ul class="dropdown-menu">
@@ -124,9 +143,19 @@ export const MainTemplate = ({ component: Component }) => {
             <div className="mt-3">
               <ul>
                 <li>
-                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=boybloxstore@gmail.com&su=SUBJECT&body=BODY" target="_blank" className="text-decoration-none text-white">
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=boybloxstore@gmail.com&su=SUBJECT&body=BODY"
+                    target="_blank"
+                    className="text-decoration-none text-white"
+                  >
                     <span className="me-3">Email : boybloxstore@gmail.com</span>
-                    <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg
+                      width="40px"
+                      height="40px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
                       <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
@@ -137,16 +166,29 @@ export const MainTemplate = ({ component: Component }) => {
                   </a>
                 </li>
                 <li className="mt-3">
-                  <a href="https://www.instagram.com/Boyblox_Store" target="_blank" className="text-decoration-none text-white">
+                  <a
+                    href="https://www.instagram.com/Boyblox_Store"
+                    target="_blank"
+                    className="text-decoration-none text-white"
+                  >
                     <span className="me-3">Instagram : @Boyblox_Store</span>
-                    <svg width="33px" height="33px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg
+                      width="33px"
+                      height="33px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
                       <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
                         d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
                         fill="#FFFFFF"
                       />
-                      <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#0F0F0F" />
+                      <path
+                        d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                        fill="#0F0F0F"
+                      />
                       <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
@@ -157,9 +199,19 @@ export const MainTemplate = ({ component: Component }) => {
                   </a>
                 </li>
                 <li className="mt-3">
-                  <a href="https://wa.me/081284831273" target="_blank" className="text-decoration-none text-white">
+                  <a
+                    href="https://wa.me/+6281284831273"
+                    target="_blank"
+                    className="text-decoration-none text-white"
+                  >
                     <span className="me-3">Phone : 081284831273</span>
-                    <svg width="34px" height="34px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg
+                      width="34px"
+                      height="34px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
                       <path
                         d="M6.014 8.00613C6.12827 7.1024 7.30277 5.87414 8.23488 6.01043L8.23339 6.00894C9.14051 6.18132 9.85859 7.74261 10.2635 8.44465C10.5504 8.95402 10.3641 9.4701 10.0965 9.68787C9.7355 9.97883 9.17099 10.3803 9.28943 10.7834C9.5 11.5 12 14 13.2296 14.7107C13.695 14.9797 14.0325 14.2702 14.3207 13.9067C14.5301 13.6271 15.0466 13.46 15.5548 13.736C16.3138 14.178 17.0288 14.6917 17.69 15.27C18.0202 15.546 18.0977 15.9539 17.8689 16.385C17.4659 17.1443 16.3003 18.1456 15.4542 17.9421C13.9764 17.5868 8 15.27 6.08033 8.55801C5.97237 8.24048 5.99955 8.12044 6.014 8.00613Z"
                         fill="#FFFFFF"
@@ -178,7 +230,9 @@ export const MainTemplate = ({ component: Component }) => {
           </div>
         </div>
         <hr className="text-white m-0 p-0" />
-        <p className="m-0 px-0 py-3 text-white text-center">2024@ All rights reserved. Sirkel Dosen Team</p>
+        <p className="m-0 px-0 py-3 text-white text-center">
+          2024@ All rights reserved. Sirkel Dosen Team
+        </p>
       </div>
     </div>
   );
