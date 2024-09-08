@@ -2,7 +2,7 @@ import { Carousel, Card, Button } from "react-bootstrap";
 import img1 from "../../assets/images/PriceList.png";
 import img2 from "../../assets/images/jettdark.jpg";
 import img3 from "../../assets/images/valorant.jpg";
-import img4 from "../../assets/images/CaraOder.png";
+import img4 from "../../assets/images/CaraOrder.png";
 import "../../styles/home/home.css";
 import { useEffect, useState } from "react";
 export const Home = ({ user }) => {

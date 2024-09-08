@@ -1,7 +1,7 @@
 .carousel-img {
-  height: 600px;
-  object-fit: cover;
-  object-position: 0 5%;
+  height: 700px;
+  object-fit: contain; /* menampilkan gambar tanpa terpotong */
+  object-position: center; /* memposisikan gambar di tengah */
 }
 
 .card-img {
