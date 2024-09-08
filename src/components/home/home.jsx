@@ -1,6 +1,6 @@
 import { Carousel, Card, Button } from "react-bootstrap";
-import img1 from "../../assets/images/image-cars.jpg";
-import img2 from "../../assets/images/jettdark.jpg";
+import img1 from "../../assets/images/PriceList.png";
+import img2 from "../../assets/images/CaraOder.png";
 import img3 from "../../assets/images/valorant.jpg";
 import "../../styles/home/home.css";
 import { useEffect, useState } from "react";
