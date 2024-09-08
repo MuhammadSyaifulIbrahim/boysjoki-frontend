@@ -1,7 +1,8 @@
 import { Carousel, Card, Button } from "react-bootstrap";
 import img1 from "../../assets/images/PriceList.png";
-import img2 from "../../assets/images/CaraOder.png";
+import img2 from "../../assets/images/jettdark.jpg";
 import img3 from "../../assets/images/valorant.jpg";
+import img4 from "../../assets/images/CaraOder.png";
 import "../../styles/home/home.css";
 import { useEffect, useState } from "react";
 export const Home = ({ user }) => {
@@ -23,7 +24,7 @@ export const Home = ({ user }) => {
           <Carousel.Item>
             <img
               className="d-block w-100 carousel-img"
-              src={img2}
+              src={img4}
               alt="Second slide"
             />
             <Carousel.Caption>
